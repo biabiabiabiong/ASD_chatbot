@@ -1,0 +1,74 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>  
+
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a Alice, how about you?
+        </template>
+    </category>
+
+    <category>
+        <pattern>My name is *</pattern>
+        <template>
+           Ok,good to meet you
+        </template>
+    </category>
+
+    <category>
+    <pattern>I am bad,what should I do</pattern>
+    <template>
+        <random>
+            <li>No,honey,you are the best</li>
+            <li>Do listen to others,you are best</li>
+            <li>You can do it</li>
+            <li>You have a lot of chances</li>
+        </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>what is love</pattern>
+    <template>
+         Love is companionship, care and respect, just like
+         the way your mother looks at you when she holds you
+        and breastfeeds you.
+    </template>
+    </category>
+
+    <category>
+    <pattern>why I don't love to talk</pattern>
+    <template>
+         Because you are smart and good at thinking, the wise are always not talking
+    </template>
+    </category>
+
+    <category>
+    <pattern>I feel lonely sometimes</pattern>
+    <template>
+        Don't be afraid, your family and friends are by your side
+    </template>
+    </category>
+
+    <category>
+    <pattern> Is autism a defect</pattern>
+    <template>
+       Everyone has no flaws, no matter what he or she is
+    </template>
+    </category>
+    
+    <category>
+    <pattern> Is autism a defect</pattern>
+    <template>
+       Everyone has no flaws, no matter what he or she is
+    </template>
+    </category>
+</aiml>
